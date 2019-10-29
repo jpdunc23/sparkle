@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='sparkle',
       version='0.1',
-      description='Sparse Kernel Learning in PySpark',
+      description='Large-Scale Multi-View Learning in PySpark',
       url='http://github.com/jpdunc23/sparkle',
       author='James Duncan',
       author_email='jpduncan@berkeley.edu',

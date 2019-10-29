@@ -1,6 +1,6 @@
 # SparKLe
 
-SparKLe implements the methods of Solari et al. (2019) for large-scale sparse kernel canonical correlation analysis with the aim of inferring non-linear, yet interpretable, associations between multiple sets of high-dimensional covariates from observations on matching subjects.
+SparKLe implements the methods of Solari et al. (2019) for large-scale multi-view learning with the aim of inferring non-linear, yet interpretable, associations between multiple sets of high-dimensional covariates from observations on matching subjects.
 
 SparKLe uses the Python API of Apache Spark, an open-source distributed data analytics framework  in  the MapReduce  lineage  of  computational  paradigms that  was  originally developed at the University of California, Berkeley’s AMPLab. Spark is often used in settings with large numbers of "observations", whereas SparKLe is designed for the  challenge of enormously large numbers of parameters across multiple datasets. Common settings in which SparKLe works well include multi-omics, fMRI studies, imaging data, and other settings where high dimensional data is encountered.
 
